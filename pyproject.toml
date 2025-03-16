@@ -1,0 +1,23 @@
+[project]
+name = "async-queues"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "georgiiviktorov",email = "nowayisleft@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp (>=3.11.13,<4.0.0)",
+    "beautifulsoup4 (==4.9.3)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+isort = "^6.0.1"
+flake8 = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
