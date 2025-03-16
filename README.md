@@ -7,6 +7,7 @@ It contains implementations and examples of different queue types, including FIF
 # Project Structure
 
 ```
+async-queues
 ├── README.md
 ├── fifo
 │   ├── async_queue.py
